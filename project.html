@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YingChen's Resume</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--網頁名稱-->
+    <header>
+        <p class="title">YingChen's Ruseme</p>
+    </header>
+    <!--連結選單-->
+    <nav>
+        <a href="#info">About me</a>
+        <a href="#skill">Skill</a>
+        <a href="#experience">Experience</a>
+        <a href="#interest">Interest</a>
+    </nav>
+    <audio controls style="margin:15px 0 0 0 ;">
+        <source src="music/music.mp3" type="audio/mpeg" >
+    </audio>
+    <article>
+    <!--關於我-->
+        <section class="card">
+            <div id="info">
+                <div>
+                    <p class="title ">About me</p>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="img/me.jpg" style="height:300px; width: 200px; border-radius:50px">
+                    </div>
+                    <div style="width:250px ;">
+                        <p class="me">
+                            姓名 : 蘇英禎<br>
+                            就讀學系 : 中原大學資管系<br>
+                            出生 : 2003/12/22<br>
+                            住家 : 雲林縣,北港鎮<br>
+                            <a href="https://www.instagram.com/yingchen_1222/?hl=zh-tw"><img src="img/ig.jpg" class="mysocial"></a>
+                            <a href="https://www.facebook.com/profile.php?id=100006228703251"><img src="img/fb.jpg" class="mysocial"></a>
+                            <a href="https://weibo.com/u/6403205923"><img src="img/weibo.jpg" class="mysocial"></a><br>
+                            #先去做，別怕錯  做一個勇敢的人
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+                
+        </section>
+
+    <!--技能-->
+        <section class="card">
+                <div id="skill" class="skill_title1">Program Skill</div>
+                <div class="skill">
+                    <div class="skilltext">
+                        Python
+                    </div>
+                    <div class="skillContent">
+                        <div class="progress">
+                            <progress onclick="move(70,0)" class="degree" id="degree" max="100" value="70"></progress>
+                        </div>
+                        <div class="precent">
+                            70%
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skilltext">
+                        Java
+                    </div>
+                    <div class="skillContent">
+                        <div class="progress">
+                            <progress onclick="move(75,1)" class="degree" id="degree" max="100" value="75"></progress>
+                        </div>
+                        <div class="precent">
+                            75%
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skilltext">
+                        HTML
+                    </div>
+                    <div class="skillContent">
+                        <div class="progress">
+                            <progress onclick="move(75,2)" class="degree" id="degree" max="100" value="85"></progress>
+                        </div>
+                        <div class="precent">
+                            85%
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skilltext">
+                        CSS
+                    </div>
+                    <div class="skillContent">
+                        <div class="progress">
+                            <progress onclick="move(75,2)" class="degree" id="degree" max="100" value="80"></progress>
+                        </div>
+                        <div class="precent">
+                            80%
+                        </div>
+                    </div>
+                </div>
+                        </div>
+                <div class="skill_title2">Other Skill</div>
+                <div class="skill">
+                    <div class="skilltext">
+                        Photoshop
+                    </div>
+                    <div class="skillContent">
+                        <div class="progress">
+                            <progress onclick="move(40,0)" class="degree" id="degree" max="100" value="40"></progress>
+                        </div>
+                        <div class="precent">
+                            40%
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skilltext">
+                        文書處理
+                    </div>
+                    <div class="skillContent">
+                        <div class="progress">
+                            <progress onclick="move(90,0)" class="degree" id="degree" max="100" value="90"></progress>
+                        </div>
+                        <div class="precent">
+                            90%
+                        </div>
+                    </div>
+                </div>
+            
+            
+        </section>
+
+    <!--經驗-->
+        <section class="card">
+            <div id="experience">
+                <div>
+                    <p class="title ">Experience</p>
+                </div>
+                <div class="item">
+                    <img src="img/exp1.jpg" class="img" >
+                    <div>
+                        <div>
+                            <p class="exp_text1">管理學 志工服務</p>
+                        </div>
+                        <div>
+                            <div class="exp_text2">
+                                這次的志工服務是一次很難得的經驗，因為要此次目的<br>
+                                是要教長輩運用智慧型手機，在教阿公阿嬤的時候很怕<br>
+                                講太快他們聽不懂，但透過一次次的經驗也知道要用什<br>
+                                麼方式讓他們比較容易懂得如何操作，在最後我們做了<br>
+                                一個回饋表單，得到的回覆是他們也很滿意我們的教學<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="item">
+                    <img src="img/exp2.png" class="img" >
+                    <div>
+                        <div>
+                            <p class="exp_text1">大二上 網程專題</p>
+                        </div>
+                        <div>
+                            <div class="exp_text2">
+                                上學期網頁程式設計與前端同學聯合產出的代購網站<br>
+                                我覺得後端所做的東西真的很硬，邏輯思考要很清楚<br>
+                                當時課程到12月中就結束了，因為接下來一週聖誕節<br>
+                                一週元旦，其實很多東西都靠我們自己摸索，當時放<br>
+                                完元旦回來不是在debug就是在debug路上<br>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+    <!--興趣-->
+    <section class="card">
+        <div id="interest">
+            <div>
+                <p class="title ">Interest</p>
+            </div>
+            <div class="item">
+                <img src="img/interest1.jpg" class="img" >
+                <div>
+                    <div>
+                        <p class="exp_text1">Cosplay</p>
+                    </div>
+                    <div>
+                        <div class="exp_text2">
+                            小時候看著電視上的卡通人物常常幻想自己有一天能變成他們，<br>
+                            在高中時朋友參加的社團是跟動漫有關的，我就問他你可以變成<br>
+                            誰誰誰嗎?她說有衣服假髮就可以，高中畢業後我和她去參加漫<br>
+                            展，也就是我第一次玩cosplay就愛上了，目前為止已經出了好<br>
+                            幾個自己喜歡的角色，在學校我也參加與cosplay有關的社團
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <div class="item">
+                <img src="img/interest2.jpg" class="img" >
+                <div>
+                    <div>
+                        <div class="exp_text1">假髮造型</div>
+                    </div>
+                    <div>
+                        <div class="exp_text2">
+                            因為每個角色的髮型都不同，有時候沒有現成的<br>
+                            或是有現成但是品質不好，所以就買萬用款假髮<br>
+                            因為請別人幫忙做還要多花一筆錢，所以最近開<br>
+                            使練習自己幫假髮造型
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    </article>
+    <footer>
+        <h5>Copyrgiht © @ 2024 Yingchen All rights reserved</h5>
+    </footer>
+</body>
+</html>

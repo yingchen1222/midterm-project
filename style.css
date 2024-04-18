@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 950px;
+}
+
+body {
+    background-color: #fefae0;
+    margin: 0px;
+}
+
+header {
+    background: linear-gradient(to bottom, #d6ec91, #e9edc9);
+    background-color: #ccd5ae;
+    text-align: center;
+    padding: 8px;
+    margin: 0px 10px;
+
+}
+
+nav {
+    background-color: #e9edc9;
+    text-align: center;
+    padding: 2px;
+    margin: 0px 10px;
+
+}
+
+nav a {
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #ccd5ae;
+
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ccd5ae;
+    text-align: center;
+    padding: 5px;
+    height: 30px;
+}
+
+.card {
+    background-color: #e9edc9;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+}
+
+.img {
+    height: 224px;
+    width: 336px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.mysocial {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin: 0px 0px 20px 0px;
+}
+
+.item {
+    display: flex;
+}
+
+.me {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 35px 10px 8px -80px;
+    line-height: 20px;
+}
+
+.info {
+    font-size: 18px;
+    margin: 2px 10px 8px 5px;
+}
+
+.exp_text1 {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 35px 10px 8px 10px;
+}
+
+.exp_text2 {
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 5px;
+
+}
+
+.interest_text {
+    margin: 50px 50px;
+}
+
+.me {
+    font-size: 18px;
+    font-family: 微軟正黑體;
+    line-height: 35px;
+}
+
+.skill_title1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin: 0px 0px 20px 0px;
+    background-color: #a9b38c;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #e6edb1;
+}
+
+.skill_title2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin: 30px 0px 20px 0px;
+    background-color: #a9b38c;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #e6edb1;
+}
+
+.skill {
+    margin: 24px 24px 0px 24px;
+
+}
+
+.skillCol {
+    border-right: 2px solid #A8B9B7;
+}
+
+.skillContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skilltext {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #312222;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+progress {
+    margin: 12px;
+    width: 100%;
+    height: 32px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+progress:hover {
+    margin: 0px;
+    height: 40px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+::-webkit-progress-inner-element {
+    border: 3px solid #A8B9B7;
+    border-radius: 15px;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #A8B9B7;
+    border-radius: 15px;
+}
+
+.precent {
+    font-size: 24px;
+}
